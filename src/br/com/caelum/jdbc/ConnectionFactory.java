@@ -11,8 +11,8 @@ public class ConnectionFactory {
 			return DriverManager.getConnection("jdbc:mysql://localhost/fj21", "root", "");
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
-			//testing
-			//testemaster
+			//comentario master2
+			
 		}
 	}
 
