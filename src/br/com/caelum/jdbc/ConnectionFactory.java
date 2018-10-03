@@ -11,12 +11,12 @@ public class ConnectionFactory {
 			return DriverManager.getConnection("jdbc:mysql://localhost/fj21", "root", "");
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
-			//mergeado
+			//estou na one e dei stash, depois da master
 			
 			
 		}
 	}
 	
-	//comentario na branch one
+	
 
 }
