@@ -11,7 +11,7 @@ public class ConnectionFactory {
 			return DriverManager.getConnection("jdbc:mysql://localhost/fj21", "root", "");
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
-			//estou na one e dei stash, depois da master
+			//segundo teste de stash na branch one
 			
 			
 		}
